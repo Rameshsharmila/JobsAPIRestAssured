@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  JobsAPI</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>JobsAPI</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 19 11:17:22 PDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22651 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jobsapi.testcases.deleteJobs.deleteInvalidJobId()'><b>deleteInvalidJobId</b><br>Test class: com.jobsapi.testcases.deleteJobs</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.deleteJobs@57af006c</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.deleteJobs.deleteJobs()'><b>deleteJobs</b><br>Test class: com.jobsapi.testcases.deleteJobs<br>Parameters: 5001</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.deleteJobs@57af006c</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.deleteJobs.deleteJobs()'><b>deleteJobs</b><br>Test class: com.jobsapi.testcases.deleteJobs<br>Parameters: 5002</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.deleteJobs@57af006c</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.deleteJobs.deleteJobs()'><b>deleteJobs</b><br>Test class: com.jobsapi.testcases.deleteJobs<br>Parameters: 5003</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.deleteJobs@57af006c</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.deleteJobs.deleteJobs()'><b>deleteJobs</b><br>Test class: com.jobsapi.testcases.deleteJobs<br>Parameters: 5004</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.deleteJobs@57af006c</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.deleteJobs.deleteJobs()'><b>deleteJobs</b><br>Test class: com.jobsapi.testcases.deleteJobs<br>Parameters: 5005</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.deleteJobs@57af006c</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.getAllJobDetails.getJobs()'><b>getJobs</b><br>Test class: com.jobsapi.testcases.getAllJobDetails</td>
+<td></td>
+<td>4</td>
+<td>com.jobsapi.testcases.getAllJobDetails@6d3a388c</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithAllValidDetails()'><b>postNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Quality Assurance Engineer, Amazon Corp, San Jose, CA, W2, 10 hours ago, Quality Assurance Engineer, 5001, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithAllValidDetails()'><b>postNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Quality Assurance Lead, Facebook Inc, Irvine, CA, Contract, 24 hours ago, Quality Assurance Lead, 5002, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithAllValidDetails()'><b>postNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Quality Assurance Manager, Terra Systems Inc, Remote, Part Time, 5 hours ago, Quality Assurance Manager, 5003, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithAllValidDetails()'><b>postNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Quality Assurance Automation Lead, Pacific Corp, London, UK, Full Time, 2 days ago, Quality Assurance Automation Lead, 5004, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithAllValidDetails()'><b>postNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Engineering Manager, Myriad Solutions, New York, NY, Third Party, 6 days ago, Engineering Manager, 5005, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithBlankCompanyName()'><b>postNewJobWithBlankCompanyName</b><br>Test class: com.jobsapi.testcases.postNewJob</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithBlankJobDesc()'><b>postNewJobWithBlankJobDesc</b><br>Test class: com.jobsapi.testcases.postNewJob</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithBlankJobId()'><b>postNewJobWithBlankJobId</b><br>Test class: com.jobsapi.testcases.postNewJob</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithBlankJobPostedTime()'><b>postNewJobWithBlankJobPostedTime</b><br>Test class: com.jobsapi.testcases.postNewJob</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithBlankJobTitle()'><b>postNewJobWithBlankJobTitle</b><br>Test class: com.jobsapi.testcases.postNewJob</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithBlankJobType()'><b>postNewJobWithBlankJobType</b><br>Test class: com.jobsapi.testcases.postNewJob</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithBlankLocation()'><b>postNewJobWithBlankLocation</b><br>Test class: com.jobsapi.testcases.postNewJob</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithDuplicateID()'><b>postNewJobWithDuplicateID</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Quality Assurance Engineer, Amazon Corp, San Jose, CA, W2, 10 hours ago, Quality Assurance Engineer, 5001, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithDuplicateID()'><b>postNewJobWithDuplicateID</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Quality Assurance Lead, Facebook Inc, Irvine, CA, Contract, 24 hours ago, Quality Assurance Lead, 5002, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithDuplicateID()'><b>postNewJobWithDuplicateID</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Quality Assurance Manager, Terra Systems Inc, Remote, Part Time, 5 hours ago, Quality Assurance Manager, 5003, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithDuplicateID()'><b>postNewJobWithDuplicateID</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Quality Assurance Automation Lead, Pacific Corp, London, UK, Full Time, 2 days ago, Quality Assurance Automation Lead, 5004, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.postNewJob.postNewJobWithDuplicateID()'><b>postNewJobWithDuplicateID</b><br>Test class: com.jobsapi.testcases.postNewJob<br>Parameters: Engineering Manager, Myriad Solutions, New York, NY, Third Party, 6 days ago, Engineering Manager, 5005, null</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.postNewJob@193f604a</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.updateExistingJob.putJobBlankJobId()'><b>putJobBlankJobId</b><br>Test class: com.jobsapi.testcases.updateExistingJob</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.updateExistingJob@20f5239f</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.updateExistingJob.putJobInvalidJobId()'><b>putJobInvalidJobId</b><br>Test class: com.jobsapi.testcases.updateExistingJob</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.updateExistingJob@20f5239f</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.updateExistingJob.putNewJobWithAllValidDetails()'><b>putNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.updateExistingJob<br>Parameters: Quality Assurance Engineer, Amazon Corp, San Jose, CA, W2, 10 hours ago, Quality Assurance Engineer, 5001, Quality Assurance EngineerUPDATED</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.updateExistingJob@20f5239f</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.updateExistingJob.putNewJobWithAllValidDetails()'><b>putNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.updateExistingJob<br>Parameters: Quality Assurance Lead, Facebook Inc, Irvine, CA, Contract, 24 hours ago, Quality Assurance Lead, 5002, Quality Assurance LeadUPDATED</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.updateExistingJob@20f5239f</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.updateExistingJob.putNewJobWithAllValidDetails()'><b>putNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.updateExistingJob<br>Parameters: Quality Assurance Manager, Terra Systems Inc, Remote, Part Time, 5 hours ago, Quality Assurance Manager, 5003, Quality Assurance ManagerUPDATED</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.updateExistingJob@20f5239f</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.updateExistingJob.putNewJobWithAllValidDetails()'><b>putNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.updateExistingJob<br>Parameters: Quality Assurance Automation Lead, Pacific Corp, London, UK, Full Time, 2 days ago, Quality Assurance Automation Lead, 5004, Quality Assurance Automation LeadUPDATED</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.updateExistingJob@20f5239f</td></tr>
+<tr>
+<td title='com.jobsapi.testcases.updateExistingJob.putNewJobWithAllValidDetails()'><b>putNewJobWithAllValidDetails</b><br>Test class: com.jobsapi.testcases.updateExistingJob<br>Parameters: Engineering Manager, Myriad Solutions, New York, NY, Third Party, 6 days ago, Engineering Manager, 5005, Engineering ManagerUPDATED</td>
+<td></td>
+<td>0</td>
+<td>com.jobsapi.testcases.updateExistingJob@20f5239f</td></tr>
+</table><p>
+</body>
+</html>
